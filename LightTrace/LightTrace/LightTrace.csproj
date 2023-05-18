@@ -3,6 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <!-- Nuget package properties https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets -->
+  <PropertyGroup>
+    <Title>BlackPower.LightTrace</Title>
+    <PackageId>BlackPower.LightTrace</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>BlackPower</Authors>
+    <PackageProjectUrl>https://github.com/BlackPower/LightTrace</PackageProjectUrl>
+    <Description>LightTrace</Description>
+    <PackageTags>trace</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
