@@ -15,6 +15,7 @@
     <PackageProjectUrl>https://github.com/BlackPower/LightTrace</PackageProjectUrl>
     <Description>LightTrace</Description>
     <PackageTags>trace</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
