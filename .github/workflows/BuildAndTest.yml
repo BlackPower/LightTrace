@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore --configuration Release ./LightTrace/LightTrace.sln
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./LightTrace/LightTrace.sln
+      run: dotnet test --no-build --configuration Release --verbosity normal ./LightTrace/LightTrace.sln
